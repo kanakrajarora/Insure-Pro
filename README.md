@@ -1,4 +1,4 @@
-```markdown
+
 # InsurePro: Insurance Premium Prediction System
 
 ## Overview
@@ -19,7 +19,7 @@ InsurePro is an end-to-end machine learning system designed to predict medical i
 ---
 
 ## Dataset
-- Source: Medical Insurance Dataset (Kaggle)
+- Source: Medical Insurance Dataset (Kaggle) https://www.kaggle.com/datasets/mosapabdelghany/medical-insurance-cost-dataset
 - Records: 2772
 - Features:
   - Age
@@ -40,7 +40,7 @@ InsurePro is an end-to-end machine learning system designed to predict medical i
 ├── stacking_model.pkl      # Trained ML model
 ├── model_columns.pkl       # Feature columns
 ├── Medical_insurance.csv   # Dataset
-├── notebook.ipynb          # Model development
+├── code copy.ipynb          # Model development
 ├── README.md               # Project documentation
 
 ```
@@ -108,23 +108,17 @@ The Streamlit application allows users to:
 
 ### 1. Clone Repository
 ```
-
 git clone [https://github.com/kanakrajarora/InsurePro.git](https://github.com/kanakrajarora/InsurePro.git)
-
 ```
 
 ### 2. Install Dependencies
 ```
-
 pip install -r requirements.txt
-
 ```
 
 ### 3. Run Application
 ```
-
 streamlit run app.py
-
 ```
 
 ---
@@ -171,4 +165,3 @@ Kanak Raj Arora
 
 ## License
 This project is for academic and research purposes.
-```
